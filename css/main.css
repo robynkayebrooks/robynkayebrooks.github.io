@@ -1,9 +1,18 @@
+@font-face{
+ font-family: Above;
+ src: url('ABOVE.ttff')
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 html{
   height: 100%;
 }
 body {
     background-color: lightblue;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Above';
     height: 100%;
 }
 h1 {
@@ -17,11 +26,6 @@ img {
 ol {
   text-align: center;
   list-style-position: inside;
-}
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
 }
 .homepage {
     /* The image used */
