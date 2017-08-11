@@ -43,7 +43,7 @@ ol {
 }
 
 .trans1{
-  height:300px;
+  height:1000px;
   font-family:"above";
   font-size:40px;
 }
@@ -60,14 +60,14 @@ ol {
 }
 
 .extras{
-  height:300px;
+  height:1000px;
   font-family:"above";
   font-size:40px;
 }
 
 .contact{
   /* The image used */
-  background-color: black;
+  background-color: white;
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
