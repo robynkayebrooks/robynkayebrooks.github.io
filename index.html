@@ -9,7 +9,7 @@
 
       <!-- Include Stylesheets -->
   	<link rel="stylesheet" type="text/css" href="css\main.css">
-
+  	<link rel="stylesheet" type="text/css" href="css\normalize.css">
     	<!-- Include Libraries -->
       <!-- Include Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -17,9 +17,14 @@
 
   <body>
 
-    <!-- Navigation between the sections.-->
-    <nav class="navigaion">
-    </nav>
+  		<nav class="navigation">
+
+  			<a href="javascript:Navigation.scrollTo('.homepage');" class="active"><span></span></a>
+  			<a href="javascript:Navigation.scrollTo('.trans1');"><span></span></a>
+  			<a href="javascript:Navigation.scrollTo('.aboutme');"><span></span></a>
+  			<a href="javascript:Navigation.scrollTo('.extras');"><span></span></a>
+  			<a href="javascript:Navigation.scrollTo('.contact');"><span></span></a>
+  		</nav><!-- end .navigation -->
 
     <!--SECTION, intro slide-->
     <div class="homepage">
@@ -27,7 +32,7 @@
     </div>
 
     <!--division, transition slide-->
-    <div style="height:1000px;background-color:red;font-size:36px">
+    <div class="trans1">
     Scroll Up and Down this page to see the parallax scrolling effect.
     This div is just here to enable scrolling.
     Tip: Try to remove the background-attachment property to remove the scrolling effect.
@@ -35,19 +40,19 @@
 
     <!--division, about me (background/about me bio,
     current research, talks, pdfs, goals/reserach interests)-->
-    <div id="aboutme">
+    <div class="aboutme">
       <p>
       </p>
     </div>
 
     <!--division, extras: quilts, AWM, GWC, STAG, GSSA-->
-    <div id="extras">
+    <div class="extras">
       <p>
       </p>
     </div>
 
     <!--division, contact info/CV-->
-    <div id="contact">
+    <div class="contact">
       <p>
       </p>
     </div>
