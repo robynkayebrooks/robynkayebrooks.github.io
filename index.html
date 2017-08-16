@@ -3,63 +3,77 @@
 
 <html>
     <head>
+      <title>Robyn Kaye Brooks | Mathematician</title>
+    	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Robyn Kaye Brooks | Mathematician</title>
-  	<meta charset="UTF-8">
-
-      <!-- Include Stylesheets -->
-  	<link rel="stylesheet" type="text/css" href="css\main.css">
-  	<link rel="stylesheet" type="text/css" href="css\normalize.css">
-    	<!-- Include Libraries -->
-      <!-- Include Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <!-- Include Stylesheets -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<link rel="stylesheet" type="text/css" href="css\main.css">
+    	<link rel="stylesheet" type="text/css" href="css\normalize.css">
+      	<!-- Include Libraries -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Include Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     </head>
 
-  <body>
+    <body>
+      <!-- Navbar-->
+      <nav class="navigation">
 
-  		<nav class="navigation">
+        <a href="javascript:Navigation.scrollTo('.hero');" class="active"><span></span></a>
+        <a href="javascript:Navigation.scrollTo('.about');"><span></span></a>
+        <a href="javascript:Navigation.scrollTo('.hydrocode');"><span></span></a>
+        <a href="javascript:Navigation.scrollTo('.interests');"><span></span></a>
+        <a href="javascript:Navigation.scrollTo('.publications');"><span></span></a>
+        <a href="javascript:Navigation.scrollTo('.grail');"><span></span></a>
 
-  			<a href="javascript:Navigation.scrollTo('.homepage');" class="active"><span></span></a>
-  			<a href="javascript:Navigation.scrollTo('.trans1');"><span></span></a>
-  			<a href="javascript:Navigation.scrollTo('.aboutme');"><span></span></a>
-  			<a href="javascript:Navigation.scrollTo('.extras');"><span></span></a>
-  			<a href="javascript:Navigation.scrollTo('.contact');"><span></span></a>
-  		</nav><!-- end .navigation -->
+      </nav><!-- end .navigation -->
 
+      <!--division, transition slide-->
+      <div class="trans1" class="container-fluid">
+
+      </div>
     <!--SECTION, intro slide-->
-    <div class="homepage">
+    <div class="homepage" class="container-fluid">
       <h1>Robyn Kaye Brooks</h1>
     </div>
 
-    <!--division, transition slide-->
-    <div class="trans1">
-    Scroll Up and Down this page to see the parallax scrolling effect.
-    This div is just here to enable scrolling.
-    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    <!--division, extras: quilts, AWM, GWC, STAG, GSSA-->
+    <div class="extras" class="container-fluid">
+      <div class="row" style="height:500px;">
+        <div class="col-sm-4" style="background-color:lavender;"><a href="http://www.tulane.edu/~gssa/" target="_blank">GSSA</a></div>
+        <div class="col-sm-4" style="background-color:lavenderblush;"><a href="https://girlswhocode.com/" target="_blank">GWC</a></div>
+        <div class="col-sm-4" style="background-color:lavender;"><a href="https://girlswhocode.com/" target="_blank">GWC</a></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" style="background-color:lavender;"><a href="https://awmamstulanechapters.wordpress.com/home/" target="_blank">AWM</a></div>
+        <div class="col-sm-4" style="background-color:lavenderblush;"><a href="https://girlswhocode.com/" target="_blank">GWC</a></div>
+        <div class="col-sm-4" style="background-color:lavender;"><a href="https://girlswhocode.com/" target="_blank">GWC</a></div>
+      </div>
     </div>
 
     <!--division, about me (background/about me bio,
     current research, talks, pdfs, goals/reserach interests)-->
-    <div class="aboutme">
-      <p>
-      </p>
+    <div class="aboutme" class="container-fluid">
+      My name is Robyn Brooks, and I am a Graduate Student in Mathematics at Tulane University.
     </div>
 
-    <!--division, extras: quilts, AWM, GWC, STAG, GSSA-->
-    <div class="extras">
-
-        <a href="http://www.tulane.edu/~gssa/">GSSA</a>
-        <a href="https://girlswhocode.com/">GWC</a>
-        <a href="">AWM</a>
-        
+    <!--division, transition slide-->
+    <div class="trans2" class="container-fluid">
 
     </div>
 
     <!--division, contact info/CV-->
-    <div class="contact">
+    <div class="contact" class="container-fluid">
       <p>
       </p>
     </div>
+
+    <footer>
+
+    </footer>
     <!-- Include Libraries-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

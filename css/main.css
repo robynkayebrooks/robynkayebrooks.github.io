@@ -14,6 +14,7 @@ body {
     background-color: lightblue;
     font-family: 'Above';
     height: 100%;
+    padding-top: 0px;
 }
 h1 {
     Font size: 400px;
@@ -34,8 +35,9 @@ ol {
     /* The image used */
     background-image: url('../img/Zelda.jpg');
     /* Full height */
-    height: 100%;
+    height:100%;
     /* Create the parallax scrolling effect */
+    padding-top: 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,6 +45,11 @@ ol {
 }
 
 .trans1{
+  height:1000px;
+  font-family:"above";
+  font-size:40px;
+}
+.trans2{
   height:1000px;
   font-family:"above";
   font-size:40px;
@@ -76,3 +83,5 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}.navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}.navigation-dark a{border:2px solid transparent}.navigation-dark a span{background:rgba(0,0,0,0.2)}.navigation-dark a.active,.navigation-dark a:hover{border:2px solid rgba(0,0,0,0.4)}.loaded .navigation{right:30px}@media (max-width: 767px){.loaded .navigation{right:15px}}
+footer{padding:100px 0px;text-align:center;font-size:12px;line-height:22px}@media (max-width: 767px){footer{padding:80px 0px}}
