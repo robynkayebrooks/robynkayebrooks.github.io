@@ -83,6 +83,18 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contacttop{
+    width:100%;
+    height:700px;
+    background: white;
+
+}
+.contactfooter{
+    width:100%;
+    height:300px;
+    background: black;
+
+}
 
 .navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}
 .navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}
