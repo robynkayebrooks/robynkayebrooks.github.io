@@ -83,24 +83,32 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}.navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}.navigation-dark a{border:2px solid transparent}.navigation-dark a span{background:rgba(0,0,0,0.2)}.navigation-dark a.active,.navigation-dark a:hover{border:2px solid rgba(0,0,0,0.4)}.loaded .navigation{right:30px}@media (max-width: 767px){.loaded .navigation{right:15px}}
-footer{padding:100px 0px;text-align:center;font-size:12px;line-height:22px}@media (max-width: 767px){footer{padding:80px 0px}}
 
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: black; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+.navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}
+.navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}
+.navigation-dark a{border:2px solid transparent}
+.navigation-dark a span{background:rgba(0,0,0,0.2)}
+.navigation-dark a.active,.navigation-dark a:hover{border:2px solid rgba(0,0,0,0.4)}
+.loaded .navigation{right:30px}
+@media (max-width: 767px){.loaded .navigation{right:15px}}
+footer{padding:100px 0px;text-align:center;font-size:12px;line-height:22px}
+@media (max-width: 767px){footer{padding:80px 0px}}
+
+.backtotop {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+background-color: #ff9000;
 }
 
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+.back-to-top i {
+  font-size: 60px;
 }
