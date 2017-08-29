@@ -92,7 +92,8 @@ ol {
 }
 
 .extras{
-  height:600px;
+  background-color: white;
+  height:1000px;
   font-family:"above";
   font-size:40px
 }
