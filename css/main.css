@@ -24,6 +24,11 @@ img {
 	display: block;
 	margin: auto;
 }
+p{
+  margin-top:0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 ol {
   text-align: center;
   list-style-position: inside;
@@ -31,53 +36,77 @@ ol {
 .navigation{
 
 }
-.homepage {
+
+.homepage{
+  /* The image used */
+  /* background-image: url('../img/linc.jpg');
+  /* Full height */
+  height:600px;
+  font-family:"above";
+  font-size:40px;
+}
+.trans1 {
     /* The image used */
-    background-image: url('../img/Zelda.jpg');
+    background-image: url('../img/grandcanyon.jpg');
     /* Full height */
     height:100%;
     /* Create the parallax scrolling effect */
     padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.trans1{
-  height:1000px;
-  font-family:"above";
-  font-size:40px;
-}
-.trans2{
-  height:1000px;
-  font-family:"above";
-  font-size:40px;
-}
 .aboutme {
   /* The image used */
-  background-color: black;
+
+  font-size: 22px;
+  text-align: center;
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
+  margin-top: :0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.trans2 {
+    /* The image used */
+    background-image: url('../img/mardigras.jpg');
+    /* Full height */
+    height:100%;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .extras{
   height:1000px;
   font-family:"above";
-  font-size:40px;
+  font-size:40px
 }
 
 .contact{
   /* The image used */
   background-color: white;
   /* Full height */
-  height: 100%;
+  height:100%;
   /* Create the parallax scrolling effect */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
