@@ -92,38 +92,33 @@ ol {
 }
 
 .extras{
-  height:1000px;
+  height:600px;
   font-family:"above";
   font-size:40px
 }
 
+.trans3 {
+    /* The image used */
+    background-image: url('../img/zelda2.png');
+    /* Full height */
+    height:100%;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .contact{
   /* The image used */
-  background-color: white;
+  background-color: lightblue;
   /* Full height */
-  height:100%;
-  /* Create the parallax scrolling effect */
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height:100px;
 }
-.contacttop{
-    width:100%;
-    height:700px;
-    background: white;
 
-}
-.contactfooter{
-    width:100%;
-    height:300px;
-    background: black;
-
-}
 
 .navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}
 .navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}
