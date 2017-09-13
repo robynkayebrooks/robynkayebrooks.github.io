@@ -41,7 +41,7 @@ ol {
   /* The image used */
   /* background-image: url('../img/linc.jpg');
   /* Full height */
-  height:600px;
+  height:800px;
   font-family:"above";
   font-size:40px;
 }
@@ -67,7 +67,7 @@ ol {
   font-size: 22px;
   text-align: center;
   /* Full height */
-  height: 100%;
+  height: 1000px;
   /* Create the parallax scrolling effect */
   margin-top: :0px;
   background-attachment: fixed;
@@ -113,6 +113,7 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contact{
   /* The image used */
   background-color: lightblue;
@@ -120,6 +121,148 @@ ol {
   height:100px;
 }
 
+.quilt1 {
+    /* The image used */
+    background-image: url('../img/linc.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt2 {
+    /* The image used */
+    background-image: url('../img/mine.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt3 {
+    /* The image used */
+    background-image: url('../img/moeandjoey.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt4 {
+    /* The image used */
+    background-image: url('../img/momanddavid.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt5 {
+    /* The image used */
+    background-image: url('../img/shawnsquilt.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt6 {
+    /* The image used */
+    background-image: url('../img/peteandkelsy.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt7 {
+    /* The image used */
+    background-image: url('../img/grace.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt8 {
+    /* The image used */
+    background-image: url('../img/madonna.jpg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quilt9 {
+    /* The image used */
+    background-image: url('../img/chip.jpeg');
+    /* Full height */
+    height:1000px;
+    /* Create the parallax scrolling effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+  /* The image used */
+  background-color: lightblue;
+  font-size: 22px;
+  /* Full height */
+  height:600px;
+}
 
 .navigation a span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;border-radius:100%;background:rgba(255,255,255,0.2);display:block;width:14px;height:14px;vertical-align:top}
 .navigation a.active,.navigation a:hover{border:2px solid rgba(255,255,255,0.7)}
